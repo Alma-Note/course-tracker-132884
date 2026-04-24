@@ -3,7 +3,7 @@ import StudentCard from "./components/StudentCard";
 import RegisterCourse from "./components/RegisterCourse";
 
 
-
+//// useCallback is used to avoid recreating the function on every render
 
 function App() {
 

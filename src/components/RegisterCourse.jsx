@@ -43,7 +43,7 @@ function RegisterCourse({ onAdd }) {
 
     return (
         <form onSubmit={handleSubmit}>
-            <h3  style={{ color: "blue" }}> Register New Course</h3>
+            <h3  style={{ color: "blue" }}> Register New Course</h3>  //Register course handles adding new courses
 
             <input
                 ref={nameRef}

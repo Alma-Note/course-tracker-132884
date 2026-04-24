@@ -52,7 +52,7 @@ function App() {
         <h2>ID: 132884</h2>
 
 
-        <p>Keto jane lendet e mia kete semester:</p>
+        <p>These are my enrolled courses for this semester:</p>
 
         {courses.map((course) => (
             <StudentCard key={course.id} course={course} />

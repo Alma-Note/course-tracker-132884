@@ -1,7 +1,7 @@
 function StudentCard({ course }) {
     return (
         <div style={{ border: "5px solid black", margin: "20px", padding: "20px" }}>
-            <h3>{course.name}</h3>
+            <h3>Course: {course.name}</h3>
             <p>Credits: {course.credits}</p>
             <p>Grade: {course.grade}</p>
             <p>Attending: {course.attending ? "Yes" : "No"}</p>
